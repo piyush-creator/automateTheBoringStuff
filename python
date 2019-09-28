@@ -1,0 +1,7 @@
+def comma(spam):
+    spam = spam.insert(-1, 'and')
+
+spam = ['piyush', 'ritik', 'vaibhav', 'nitin', 'aditi']
+comma(spam)
+spam = str(spam)
+print(spam[1:-1])
